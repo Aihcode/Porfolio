@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowDown, Github, Linkedin, MapPin, CheckCircle2, ExternalLink } from 'lucide-react';
 import { PROFILE_INFO } from '../data/portfolioData';
+import heroWorkspaceImg from '../assets/images/hero_dev_workspace_1793793811648.jpg';
 
 interface HeroProps {
   lang: 'es' | 'en';
@@ -114,7 +115,7 @@ export const Hero: React.FC<HeroProps> = ({ lang }) => {
               {/* Developer Workspace Visual */}
               <div className="aspect-[16/10] sm:aspect-[16/11] lg:aspect-[4/3] w-full overflow-hidden bg-neutral-100 dark:bg-neutral-950">
                 <img
-                  src="/src/assets/images/hero_dev_workspace_1793793811648.jpg"
+                  src={heroWorkspaceImg}
                   alt="Hermides Medina Software Engineering Workspace"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

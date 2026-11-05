@@ -1,3 +1,7 @@
+import hermeposImg from '../assets/images/project_hermepos_pos_1793793813202.jpg';
+import cardStudioImg from '../assets/images/project_card_studio_1793793813566.jpg';
+import streamingImg from '../assets/images/project_streaming_platform_1793793812266.jpg';
+
 export interface Repository {
   id: string;
   name: string;
@@ -201,7 +205,7 @@ export const ALL_PROJECTS: Repository[] = [
     githubUrl: "https://github.com/Aihcode/hermepos_v3",
     liveUrl: "https://hermepos.com",
     isFeatured: true,
-    image: "/src/assets/images/project_hermepos_pos_1793793813202.jpg",
+    image: hermeposImg,
     tags: ["TypeScript", "POS", "DGII eCF", "Inventory", "Retail"],
     highlights: {
       es: [
@@ -236,7 +240,7 @@ export const ALL_PROJECTS: Repository[] = [
     githubUrl: "https://github.com/Aihcode/Agrofem-Card-Studio",
     liveUrl: null,
     isFeatured: true,
-    image: "/src/assets/images/project_card_studio_1793793813566.jpg",
+    image: cardStudioImg,
     tags: ["TypeScript", "Canvas", "ID Badges", "Agrofem", "Print Design"],
     highlights: {
       es: [
@@ -271,7 +275,7 @@ export const ALL_PROJECTS: Repository[] = [
     githubUrl: "https://github.com/Aihcode/streaming-platform",
     liveUrl: "https://streaming-platform-tmdb.vercel.app/",
     isFeatured: true,
-    image: "/src/assets/images/project_streaming_platform_1793793812266.jpg",
+    image: streamingImg,
     tags: ["Next.js", "HLS Video", "TMDB API", "React", "Tailwind CSS"],
     highlights: {
       es: [
